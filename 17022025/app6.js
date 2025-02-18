@@ -25,11 +25,11 @@ console.log("0"+"|1"+"|"+"0"+"->"+resultado5);
 console.log("1"+"|0"+"|"+"0"+"->"+resultado6);
 console.log("1"+"|1"+"|"+"1"+"->"+resultado7);
 
-
-let resultado8 = false != true;
+let resultado8 = !false; 
+let resultado9 = !true;
 
 console.log("NOT");
 
-console.log("A B R");
+console.log("A R");
 console.log("0"+"|1"+"->"+resultado8);
-console.log("1"+"|0"+"->"+resultado8);
+console.log("1"+"|0"+"->"+resultado9);
