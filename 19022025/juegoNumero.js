@@ -16,9 +16,9 @@ while ( numeroMaquina != opcionUser && vidas > 1) {
 
 
 if (opcionUser == numeroMaquina){
-    alert("Acertaste, el número es correcto");
+    alert("¡ACERTASTE!, el número es correcto");
 } else if (numeroMaquina < opcionUser){
-    alert("Perdiste, el número era menor, es: " +numeroMaquina + " y tú indicaste el número: " + opcionUser);
+    alert("¡PERDISTE!, el número era menor, es: " +numeroMaquina + " y tú indicaste el número: " + opcionUser);
 } else{
-    alert("Perdiste, el número era mayor, es: " +numeroMaquina + " y tú indicaste el número: " + opcionUser);
+    alert("¡PERDISTE!, el número era mayor, es: " +numeroMaquina + " y tú indicaste el número: " + opcionUser);
 }
