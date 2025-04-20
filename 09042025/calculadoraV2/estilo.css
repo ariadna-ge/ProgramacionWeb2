@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  
+  label{
+    color: #ffaecd;
+    font-weight: bolder;
+    font-family: "Outfit", sans-serif;
+  }
+  
+  #op{
+    color: #ffb5ad;
+  }
+  
+  input, select, button {
+    margin: 5px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 20px;
+    border-color: #ffb5ad;
+    font-family: "Outfit", sans-serif;
+  }
+  
+  #historial p {
+    margin: 0px 0;
+    font-family: "Outfit", sans-serif;
+    background-color: #ffecd8;
+  }
+  
+  h2{  
+    color: #ffaee5;
+    background-color: #ffdbf3;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+  }
+  
+  button{
+    color: #ffffff;
+    font-weight: bolder;
+    background-color: #ffc78c;
+    border-radius: 5px;
+    border-color: #ffde74;
+    font-family: "Outfit", sans-serif;
+  }
+  
+  h3{
+    color: #ffc78c;
+    font-family: "Outfit", sans-serif;
+  }
+
+  h4{
+    color: #ffc78c;
+    background-color: #ffe2c4;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
