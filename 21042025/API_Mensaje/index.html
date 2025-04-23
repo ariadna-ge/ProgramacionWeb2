@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>GoText</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <img src="imagenes/logo.png" alt="logo" id="logo">
+            <h1>GoText</h1>
+            <h3>Tu texto, en movimiento</h3>
+            <img src="imagenes/inicio.gif" alt="saludo" id="saludo">
+    </header>
+        <main class="formulario">
+            <div>
+                <h4>💫 Envía tus más sinceros afectos, este es tu lienzo de amor 💫</h4>
+                <br>
+                <img src="imagenes/numero.png" alt="icono de telefono" class="iconos">
+                <label for="input1">Número del celular</label>
+                    <br>
+                    <input type="text" id="input1" required maxlength="150" placeholder="Ingresa el número">
+                <br><br>
+                <img src="imagenes/mensaje.png" alt="icono de mensaje" class="iconos">
+                <label for="input2">Mensaje</label>
+                    <br>
+                    <textarea type="text" name="" id="input2" required maxlength="500" placeholder="Ingresa tu mensaje especial❤️"></textarea>
+                <br><br>
+                <div>
+                    <button onclick="enviarMensaje()">Enviar</button>
+                    <button onclick="location.href='index.html'">Nuevo Mensaje</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>Hecho con cariño por ariadna-ge © 2025. ¡Todos los derechos reservados!</p>
+    </footer>
+</body>
+<script src="app.js"></script>
+</html>
