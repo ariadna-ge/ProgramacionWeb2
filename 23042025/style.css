@@ -1,0 +1,31 @@
+.calculadora {
+    width: 300px;
+    margin: 50px auto;
+    border: 2px solid #FFB0CD;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #FFC3B0;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+#pantalla{
+    border-color: #ffeefe;
+    border-radius: 50px;
+    border: 1px solid #ffeefe;
+    font-family: "Inter", sans-serif;
+    width: 290px;
+    height: 30px;
+    display: block;
+}
+
+input[type="button"] {
+    background-color: #FCD4D2;
+    width: 60px;
+    margin: 5px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+}
