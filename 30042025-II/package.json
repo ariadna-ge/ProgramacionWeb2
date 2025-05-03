@@ -1,0 +1,15 @@
+{
+  "name": "30042025-ii",
+  "version": "1.0.0",
+  "main": "app.3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ariadna-ge",
+  "license": "ISC",
+  "description": "Creación de tres servidores",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
