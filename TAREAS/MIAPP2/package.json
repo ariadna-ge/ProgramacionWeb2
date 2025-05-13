@@ -1,0 +1,14 @@
+{
+  "name": "miapp2",
+  "version": "1.0.0",
+  "description": "Uso de rutas para una calculadora y generador de qr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ariadna-ge",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
