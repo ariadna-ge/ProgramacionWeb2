@@ -6,7 +6,7 @@
     <title>INICIO</title>
 </head>
 <body>
-    <h1>Listas de ususarios</h1>
+    <h1>Listas de usuarios</h1>
     <table>
         <tr>
             <th>ID</th>
@@ -14,17 +14,29 @@
             <th>Email</th>
             <th>Acciones</th>
         </tr>
-        <% users.forEach(user =>{%)>
+        <% users.forEach(user => { %>
             <tr>
                 <td><%= user.id %></td>
-                <td><%= user.name%></td>
-                <td><%= user.email%></td>
+                <td><%= user.name %></td>
+                <td><%= user.email %></td>
                 <td>
-                    <a href="/edit/<%user.id%>">Editar</a>
-                    <a href="/delete/<%user.id%>">Eliminar</a>
+                    <a href="/edit/<%= user.id %>">Editar</a>
+                    <a href="/delete/<%= user.id %>">Eliminar</a>
                 </td>
             </tr>
         <% }); %>
     </table>
+
+  <!--   Agregar usuario -->
+    <h2>Agregar usuario</h2>
+    <form action="/add" method="post">
+        <label for="name" >Nombre</label>
+            <input type="text" name="name" id="name" maxlength="45" required>
+        <br><br>
+        <label for="email">Correo</label>
+            <input type="text" name="email" id="email" maxlength="45">
+        <br><br>
+        <button type="submit">Agregar</button>
+     </form>
 </body>
 </html>
